@@ -3,14 +3,37 @@
 <head>
     <title>Page Title</title>
 </head>
+    
 <!-- The Dropdown Menu -->
 <label for="event-filter">Choose a function:</label>
 <select id="event-filter" onchange="filterPhotos()">
   <option value="all">Show All Photos</option>
   <option value="engagement">Engagement</option>
-  <option value="mehendi">Mehendi</option>
+  <option value="prewedding">prewedding</option>
   <option value="reception">Reception</option>
 </select>
+    
+<!-- The Photo Gallery -->
+<div class="gallery">
+  <!-- Engagement Photo -->
+  <div class="photo-item engagement">
+    <img src="DSC00667.JPG" alt="Engagement Ceremony">
+    <img src="DSC00830.JPG" alt="Engagement Ceremony">
+      
+  </div>
+  
+  <!-- pre wedding -->
+  <div class="photo-item prewedding">
+    <img src="AR502874.jpg" alt="pre wedding Function">
+  </div>
+  
+  <!-- Reception Photo -->
+  <div class="photo-item reception">
+    <img src="DSC00082.JPG" alt="Wedding Reception">
+  </div>
+</div>
+
+    
     <body>
         <p>Hi this is pooja and its out engagement picture.</p>
         <img src="DSC00082.JPG" style="width: 300px;" alt="finally we are engaged">
@@ -18,5 +41,6 @@
     </body>
 
 </html>
+
 
 
